@@ -1,0 +1,1 @@
+Basic message board app using Express and EJS made from a tutorial on The Odin Project.

@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  margin: 5px 0;
+}
+
+p{
+  display: block;
+}
+
+h1 {
+  display: block;
+}
+
+input {
+  margin: 5px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.userPost {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0;
+
+
+}

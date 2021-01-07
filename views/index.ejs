@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to chatting with the internet!</p>
+    <p>Feel free to air your thoughts</p>
+    <a href="/new">New Message</a>
+    
+    <% messages.forEach( (message)=> { %>
+    <div class="userPost">
+    <div><%=  message.text; %></div>
+    <div><%=  message.user; %>
+    <%=  message.added.toString().slice(0,21); %> </div>
+    </div>
+    <% }); %>
+    
+    
+  </body>
+</html>
